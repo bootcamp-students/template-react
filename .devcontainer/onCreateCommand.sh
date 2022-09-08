@@ -1,2 +1,2 @@
 #!/bin/bash
-touch onCreateCommand
+echo $(uname -a) >> onCreateCommand.txt
