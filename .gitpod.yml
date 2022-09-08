@@ -2,6 +2,5 @@ image:
   file: .devcontainer/Dockerfile
 
 tasks:
-  - name: Dev Container
-    init: bash .devcontainer/onCreateCommand.sh
+  - init: bash .devcontainer/onCreateCommand.sh
     command: bash .devcontainer/postStartCommand.sh
