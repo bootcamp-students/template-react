@@ -9,5 +9,6 @@
 	"workspaceMount": "source=${localWorkspaceFolder},target=/workspace/${localWorkspaceFolderBasename},type=bind",
 	"workspaceFolder": "/workspace/${localWorkspaceFolderBasename}",
 
-	"onCreateCommand": "bash .devcontainer/onCreateCommand.sh"
+	"onCreateCommand": "bash .devcontainer/onCreateCommand.sh",
+	"postStartCommand": "bash .devcontainer/postStartCommand.sh"
 }

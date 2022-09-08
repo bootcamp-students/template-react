@@ -4,4 +4,4 @@ image:
 tasks:
   - name: Dev Container
     init: bash .devcontainer/onCreateCommand.sh
-    command: bash .devcontainer/postCreateCommand.sh
+    command: bash .devcontainer/postStartCommand.sh
