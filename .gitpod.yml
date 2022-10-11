@@ -3,4 +3,4 @@ image:
 
 tasks:
   - init: bash .devcontainer/onCreateCommand.sh
-    command: bash .devcontainer/postStartCommand.sh
+    command: bash .devcontainer/postStartCommand.sh && bash && exit
