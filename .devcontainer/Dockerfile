@@ -1,6 +1,6 @@
 FROM docker.io/gitpod/workspace-base:latest
 USER root
-RUN curl -fsSL https://deb.nodesource.com/setup_20.x | bash - && \
+RUN curl -fsSL https://deb.nodesource.com/setup_18.x | bash - && \
     apt-get update && \
     apt-get upgrade -y && \
     apt-get install -y nodejs && \
